@@ -6,6 +6,6 @@ st.write('Our company focuses on delivering high-quality products to our custome
 st.text('All figures are updated quarterly.')
 st.markdown('**Misson Statement:** Deliver excellence through innovation and customer-centric solutions.')
 st.code('def calculate_growth(revenue_q1, revenue_q2):
-return (revenue_q2 - revenue_q1) / revenue_q1 * 100')
+return (revenue_q2 - revenue_q1) / revenue_q1 * 100', language="python")
 st.caption("This function calculates quaterly growth base on revenue.")
 st.divider()
